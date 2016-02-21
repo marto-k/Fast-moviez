@@ -4,4 +4,10 @@
 html,body{
   padding:0;
   margin:auto;
+  
+}
+body{
+  background-image:url("../Stylesheets/assets/background1.jpg");
+  background-attachment:fixed;
+  z-index:0;
 }
