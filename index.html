@@ -30,10 +30,10 @@
             <div  style="padding:20px 20px 20px 20px;color:red;position:absolute;z-index:1;opacity:0.6;"><img src="Stylesheets/assets/images.jpg"><img src="Stylesheets/assets/images.jpg"><img src="Stylesheets/assets/images.jpg"><img src="Stylesheets/assets/images.jpg"></div>
             <div style="padding:20px 20px 20px 20px;">
             <nav style="z-index:4;position:relative;text-align:right;">
-                <a href="home">HOME</a>
-                <a href="about">ABOUT</a>
-                <a href="services">SERVICES</a>
-                <a href="conta">CONTACTS</a>
+                <a href="index.html">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#services">SERVICES</a>
+                <a href="#contacts">CONTACTS</a>
             </nav>
             </div>
         </header>
@@ -162,6 +162,7 @@
         <hr>
         <!--ABOUT SECTION-->
         <section>
+        <div id="about">
         <div style="text-align:center;color:white;">
         <fieldset>
         <legend><h1 style="color:white;">ABOUT</h1></legend>
@@ -201,9 +202,10 @@
         </section>
         
         <div style="background:white;width:100%; height:20px;"></div>
-        
+        </div>
         <!--SERVICES SECTION-->
         <section>
+        <div id="services">
              <div style="text-align:center;">
                <h1 style="color:white;">SERVICES</h1>
                <hr>
@@ -251,6 +253,34 @@
                     <div class="large-2 columns"><img src="Stylesheets/assets/medal of honor.jpg"><p>Medal of Honor</p></div>
                </div>
             </div>
+            </div>
+        </section>
+        <!--CONTACTS SECTION.-->
+        <section>
+        <fieldset style="background:white;">
+        <div id ="contacts">
+        <h1 align="center">CONTACTS</h1>
+        <form>
+        <div class="row">
+        Email
+        <input type="text" placeholder="Email" width="auto" height="10px" boxradius="20px">
+         FirstNAme
+        <input type="text" placeholder="FirstNAme" width="auto" height="10px" boxradius="20px">
+        </div>
+         <div class="row">
+         SecondName
+        <input type="text" placeholder="SecondName" width="auto" height="10px" boxradius="20px">
+         Password
+        <input type="text" placeholder="password" width="50px" height="10px" boxradius="20px">
+        </div>
+         <div class="row">
+         Message
+        <textarea type="text" placeholder="Message" boxradius="20px"></textarea>
+        <input type="button" value="SUBMIT" height="40px" width="45px" style="hover:;">
+        </div>
+        </form>
+        </div>
+        </fieldset>
         </section>
     </body>
 </html>
